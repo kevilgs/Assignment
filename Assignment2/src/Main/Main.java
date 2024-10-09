@@ -8,7 +8,10 @@ public class Main {
 		System.out.println("The salary : "+ emp.calSal(24000));
 		System.out.println("Total salary including bonus:"+ emp.calSal(24000, 1300));
 		
-		System.out.println(emp.display("Salary will be delayed"));
+		System.out.println(emp.display("Salary will be not be credited.Contact"));
+		
+		Delay delay = new Delay();
+		System.out.println(delay.display(null));
 		
 
 	}

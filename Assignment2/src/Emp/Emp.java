@@ -7,13 +7,13 @@ public class Emp extends PolicyImp{
 	@Override
 	public double calSal(double salary) {
 		// TODO Auto-generated method stub
-		return 0;
+		return salary;
 	}
 
 	@Override
 	public double calSal(double salary, double bonus) {
 		// TODO Auto-generated method stub
-		return 0;
+		return salary+bonus;
 	}
 	
 	public String display(String msg) {
@@ -25,11 +25,5 @@ public class Emp extends PolicyImp{
 
 }
 
-class Delay extends Emp{
-	
-	public String display(String msg) {
-		msg ="Salary wont be credited";      // overiding 
-		return msg;
-	}
-}
+
 
